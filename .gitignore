@@ -1,0 +1,16 @@
+node_modules/
+.idea/
+dist/
+
+logs
+*.log
+.pnpm-debug.log*
+
+.npm
+.eslintcache
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local

@@ -1,0 +1,18 @@
+# .prettierrc.yml
+
+# Print width
+printWidth: 100
+# Tab width
+tabWidth: 4
+# Semi-colons
+semi: true
+# Single quotes
+singleQuote: false
+# Trailing commas
+trailingComma: "all"
+# Bracket spacing
+bracketSpacing: true
+overrides:
+  - files: ["*.css", "*.json", "*.yml", "*.yaml"]
+    options:
+      tabWidth: 2
